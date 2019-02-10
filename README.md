@@ -6,8 +6,7 @@
   * Node.js v8.5+
   * fabric-client (fabric-sdk) v1.4+
   * fabric-ca-client (fabric-sdk) v1.4+
-  * IPFS deamon
-  * IPFS cluster
+  * Required docker images declared in the docker-compose files
   * ipfs-http-client (ipfs http library) v29.0+
   * IDE of Your choice (preferred is VsCode)
 
@@ -26,7 +25,16 @@
 
 
 ## 1. Introduction:- 
-Its a simple dapp demo over `Quorum Blockchain`, which utilizes a `dockerized` environment to host the Quorum Blockchain and have its smart contracts written in `Solidity 0.4.17` and handles deployments with `truffle smart contract deployment/development framework` and it has a `NodeJS server` to serve the APIs for feature interactions with the smart contract and it has a `Swagger UI` to provide UI interface / Documentation.
+This is a POC project for demonstarating the inter-communicating go chaincodes of the hyperledger fabric. This also utilizes IPFS cluster as the privatized decentralized data storage medium. 
+Here you will find a Fabric Network cluster and an IPFS cluster working to accomplish the demonstartion along with a NodeJS server and a file based record keeping. There are four go chaincodes to maintain ledgers for:
+
+  * Students
+  * Evaluators
+  * Questions, and
+  * Answers
+
+Lest explore the entire idea in the next section.
+
 
 ## 2. The Flow & Idea
 
