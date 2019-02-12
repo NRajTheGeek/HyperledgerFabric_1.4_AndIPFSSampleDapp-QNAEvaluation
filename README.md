@@ -33,7 +33,7 @@ Here you will find a Fabric Network cluster and an IPFS cluster working to accom
   * Questions, and
   * Answers
 
-Lest explore the entire idea in the next section.
+Let's explore the entire idea in the next section.
 
 
 ## 2. The Flow & Idea
